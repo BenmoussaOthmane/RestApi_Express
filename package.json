@@ -1,0 +1,31 @@
+{
+  "name": "RestApi_Express",
+  "version": "1.0.0",
+  "description": "Create Rest Api With Node JS And Express Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenmoussaOthmane/RestApi_Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenmoussaOthmane/RestApi_Express/issues"
+  },
+  "homepage": "https://github.com/BenmoussaOthmane/RestApi_Express#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "pg": "^8.7.3",
+    "postgrest": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
